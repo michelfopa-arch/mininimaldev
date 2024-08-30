@@ -92,7 +92,7 @@ export function InvoicePDF({ invoice, currentStatus }) {
       <View style={{ flex: 1 }}>
         <Text style={[styles.h6]}>{invoice?.invoiceFrom.company}</Text>
       </View>
-      <View style={{ alignItems: 'flex-end' }}>
+      <View style={{ alignItems: 'flex-start' }}>
         <Text style={[styles.subtitle2]}>Invoice</Text>
         <Text>{invoiceNumber}</Text>
       </View>

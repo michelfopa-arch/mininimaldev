@@ -188,9 +188,15 @@ export function InvoiceDetails({ invoice }) {
             <br />
             {invoice?.invoiceTo.fullAddress}
             <br />
+            {invoice?.invoiceTo.fullAddressLine2}
+            <br />
+            {invoice?.invoiceTo.fullAddressLine3}
+            <br />
              Email: {invoice?.invoiceTo.email}
             <br />
              Phone: {invoice?.invoiceTo.phoneNumber}
+            <br />
+             {invoice?.invoiceTo.taxeId}
             <br />
           </Stack>
 

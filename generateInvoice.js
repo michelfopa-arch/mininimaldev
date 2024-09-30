@@ -99,7 +99,7 @@ export function generateInvoice(token) {
       phoneNumber: "+43 650 4605482",
       company: "HANALYTICA GmbH",
       addressType: "Office",
-      taxeId:"ATU79826823"
+      taxeId:"VAT: ATU79826823"
     },
     sent: 4,
     createDate: new Date().toISOString(), // Current date in ISO format

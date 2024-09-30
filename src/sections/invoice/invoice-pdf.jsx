@@ -135,6 +135,7 @@ export function InvoicePDF({ invoice, currentStatus }) {
         <Text style={styles.body2}>{invoiceTo.fullAddressLine3}</Text>
         <Text style={styles.body2}>{invoiceTo.email}</Text>
         <Text style={styles.body2}>{invoiceTo.phoneNumber}</Text>
+        <Text style={styles.body2}>{invoiceTo.taxeId}</Text>
       </View>
     </View>
   );

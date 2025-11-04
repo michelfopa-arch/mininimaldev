@@ -51,7 +51,7 @@ export function generateInvoice(token) {
   const parts = token.split('-');
   const quantity = parseInt(parts[0], 10);
    const month = parseInt(parts[1], 10);
-   const price=52;
+   const price=53.82;
 
   const subtotal = (quantity * price).toFixed(2)
   const invoice = {

@@ -125,6 +125,16 @@ export function InvoicePDF({ invoice, currentStatus }) {
         <Text style={styles.body2}>{invoiceFrom.fullAddressLine3}</Text>
         <Text style={styles.body2}>{invoiceFrom.email}</Text>
         <Text style={styles.body2}>{invoiceFrom.phoneNumber}</Text>
+      <Text style={[styles.subtitle2, { marginTop: 8 }]}>Business Information</Text>
+      <Text style={styles.body2}>
+        Supplier Business ID: {invoiceFrom.taxeId}
+      </Text>
+      <Text style={styles.body2}>
+        Tax Treatment: Cross-border B2B supply of services from Canada to Austria.
+      </Text>
+      <Text style={styles.body2}>
+        Reverse charge – No Canadian GST/HST charged.
+      </Text>
       </View>
 
       <View style={{ width: '50%' }}>

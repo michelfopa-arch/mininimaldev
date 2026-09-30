@@ -1,0 +1,48 @@
+{
+  "id": "65edf75d-d7ac-477d-8c7d-7cdfa2c16460",
+  "taxes": 0,
+  "status": "pending",
+  "subtotal": "9472.32",
+  "totalAmount": "9472.32",
+  "items": [
+    {
+      "id": "de9769ed-4f3a-4668-8df6-58e1ba646da3",
+      "total": "9472.32",
+      "title": "IT Consultancy Services",
+      "description": "For the month of March 2026",
+      "price": 53.82,
+      "service": "CEO",
+      "quantity": 176
+    }
+  ],
+  "invoiceNumber": "INV-12603",
+  "invoiceFrom": {
+    "id": "cec26e1d-317c-4c75-b914-2f1d1cd36168",
+    "primary": false,
+    "name": "14080319 Canada Inc.",
+    "email": "michelfopa@gmail.com",
+    "fullAddress": "34 LionHead Golf Club Road",
+    "fullAddressLine2": "Bramption, ON",
+    "fullAddressLine3": "Canada",
+    "phoneNumber": "+1 514 943 92 84",
+    "company": "14080319 Canada Inc.",
+    "addressType": "Office",
+    "taxeId": "#HST:724172903RT0001"
+  },
+  "invoiceTo": {
+    "id": "ed5e3dc8-9e1d-4fa9-9a79-0a451c427b64",
+    "primary": false,
+    "name": "HANALYTICA GmbH",
+    "email": "adis.hodzic@hanalytica.com",
+    "fullAddress": "Aignerweg 11",
+    "fullAddressLine2": "4048 Puchenau/Linz",
+    "fullAddressLine3": "Austria",
+    "phoneNumber": "+43 650 4605482",
+    "company": "HANALYTICA GmbH",
+    "addressType": "Office",
+    "taxeId": "VAT: ATU79826823"
+  },
+  "sent": 4,
+  "createDate": "2026-04-01T21:35:59.457Z",
+  "dueDate": "2026-04-15T04:00:00.000Z"
+}
